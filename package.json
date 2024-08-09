@@ -1,7 +1,6 @@
 {
   "private": true,
   "sideEffects": false,
-  "packageManager": "yarn@4.1.1",
   "scripts": {
     "build": "remix vite:build",
     "deploy": "deployctl deploy --prod --include=build,server-prod.ts --project=<your deno deploy project> ./server.prod.ts",
