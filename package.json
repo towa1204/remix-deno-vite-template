@@ -3,7 +3,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "remix vite:build",
-    "deploy": "deployctl deploy --prod --include=build,server-prod.ts --project=<your deno deploy project> ./server.prod.ts",
+    "deploy": "deployctl deploy --prod --include=build,server.prod.ts --project=<your deno deploy project> ./server.prod.ts",
     "dev": "deno run -A ./server.dev.ts",
     "start": "deno run -A ./server.prod.ts"
   },
